@@ -22,3 +22,6 @@ contract CounterTest is Test {
         assertEq(counter.number(), x);
     }
 }
+
+// forge test --match-contract Counter --match-test testFuzzCounterCounte
+// forge test --match-contract Counter --match-test testFuzz
